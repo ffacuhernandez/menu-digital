@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fffaf0;
+}
+
+.encabezado{
+    background-color: #b22222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.encabezado h1{
+    color: #fffaf0;
+}
+
+.letra {
+    color: #2f4f4f;
+}
+
+.encabezado nav{
+    display: flex;
+    gap: 25px;
+}
+
+.encabezado nav > a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #fffaf0;
+}
+
+.hero{
+    background-image: 
+    linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)),
+    url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hero h2{
+    font-size: 30px;
+    color: #fffaf0;
+}
+
+.presentacion{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.comidas div > img,
+.postres div > img{
+    height: 300px;
+    width: 450px;
+}
+
+.comidas div, .postres div{
+    background-color: #fdf5e6;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comidas, .postres{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.pie{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2f4f4f;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.pie a{
+    color: #fffaf0;
+    text-decoration: none;
+}
+
+.pie p{
+    color: #fffaf0
+}

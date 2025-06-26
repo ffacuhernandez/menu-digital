@@ -59,11 +59,18 @@ body{
     color: #fffaf0;
     background-color: rgba(0,0,0,0.3);
     padding: 20px 15px;
+    transition: box-shadow 0.4s ease;
+}
+
+.frase:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    
 }
 
 .presentacion{
     text-align: center;
     font-size: 40px;
+    background: linear-gradient(to right, rgba(0, 146, 70, 0.7), rgba(255, 255, 255, 0.7), rgba(206, 43, 55, 0.7));
 }
 
 
@@ -71,23 +78,57 @@ body{
 .postres div > img{
     height: 300px;
     width: 450px;
+    padding: 7px 3px;
 }
 
-.comidas div, .postres div{
+.comidas div,
+.postres div{
     background-color: #dbc024bc;
     padding: 20px 15px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border:6px solid transparent;
+    border-image:linear-gradient(to right, #009246,#ce2b37) 1;
+    box-shadow:0 4px 8px rgba(0,0,0,.12);
+    transition: box-shadow 0.4s ease;
 }
 
-.comidas, .postres{
+.comidas div:hover,
+.postres div:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.comidas,
+.postres{
     padding: 25px 10px;
     display: flex;
     justify-content: center;
     gap: 35px;
+}
+
+.comidas h2,
+.postres h2{
+    font-size: 30px;
+}
+
+.comidas div p,
+.comidas div ul,
+.postres div p,
+.postres div ul {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+
+.precio{
+    font-size: 20px;
+    color: #fffaf0;
+    background-color: rgba(11, 62, 21, 0.8);
+    padding: 3px;
+    border-radius: 4px;
 }
 
 
@@ -98,6 +139,7 @@ body{
     background-color: #2f4f4f;
     gap: 15px;
     padding: 15px 0;
+    font-size: 18px;
 }
 
 .pie a{

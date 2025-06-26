@@ -43,3 +43,10 @@ menu-digital/
 - **Flexbox**  
 - **Google Fonts**  
 - **GitHub Pages** para despliegue
+
+---
+
+### ✍️ Autor
+
+Facundo Hernández  
+Estudiante de Licenciatura en Sistemas – Paraná, Entre Ríos
